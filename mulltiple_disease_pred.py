@@ -31,10 +31,10 @@ attribute_info = '''
 
 #loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/satya_matmwh7/Desktop/Multiple Disease Prediction System/diabetes_model.sav','rb'))
-heart_disease_model = pickle.load(open('C:/Users/satya_matmwh7/Desktop/Multiple Disease Prediction System/heart_disease_model.sav','rb'))
-parkinson_disease_model = pickle.load(open('C:/Users/satya_matmwh7/Desktop/Multiple Disease Prediction System/parkinsons_model.sav','rb'))
-breast_cancer_model = pickle.load(open('C:/Users/satya_matmwh7/Desktop/Multiple Disease Prediction System/breast_cancer_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
+parkinson_disease_model = pickle.load(open('parkinsons_model.sav','rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_model.sav','rb'))
 
 # sidebar for navigation
 
