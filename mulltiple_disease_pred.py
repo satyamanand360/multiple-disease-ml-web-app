@@ -10,6 +10,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import numpy as np
 
+st.set_page_config(page_title="Disease ML", page_icon="https://cdn-icons-png.flaticon.com/512/3304/3304567.png")
+
+
 # Attribute Information Hint for Parkinson's Disease
 attribute_info = '''
 ### Attribute Information:
